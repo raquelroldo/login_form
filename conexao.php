@@ -7,7 +7,7 @@ try{
 
 	$start = new PDO("mysql:dbname=$dataBase;host=$host", $user, $password);
 }
-catch(PDOExeption $e){
+catch(PDOException $e){
 	echo "<p>Ocorreu um erro na ligação</p>";
 }
 ?>
