@@ -15,22 +15,22 @@
 <body>
 	<section class="section">
 		<div class="container">
-		<header class="cabecalho">
-			<a href="index.html"><h1 class="logo">Massagem Terapêutica</h1></a>
-			<button id="btn" class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
-			<nav class="menu">
-				<a class="btn-close"><i class="fa fa-times" aria-hidden="true"></i></a>
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Contatos</a></li>
-				</ul>
-			</nav>	
-		</header>
+			<header class="cabecalho">
+				<a href="index.html"><h1 class="logo">Massagem Terapêutica</h1></a>
+				<button id="btn" class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+				<nav class="menu">
+					<a class="btn-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Contatos</a></li>
+					</ul>
+				</nav>	
+			</header>
 			<form action="form_registro.php" method="post">
 				<div class="field">
-	  				<label for="nome" class="label">Utilizador</label>
-					<div class="control">
+					<label for="nome" class="label">Utilizador</label>
+					<div class="control">	  					
 				    	<input class="input userInput" type="text" name="nome">
 					</div>
 				</div> 
