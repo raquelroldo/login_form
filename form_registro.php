@@ -12,6 +12,9 @@ try{
 	$insertData = "INSERT INTO form_registro(nome, email, password) VALUES ('$nome', '$email', '$pass')";
 	$dados=$start->query($insertData);
 	echo "Dados gravados com sucesso";
+	if($user === "" && $email === "" && $pass === ""){
+		echo 'Preencha os compos corretamente';
+	}
 }
 catch(PDOException $e){
 	echo $insertData.'<br>'.$e->getMessage();

@@ -31,19 +31,19 @@
 				<div class="field">
 					<label for="nome" class="label">Utilizador</label>
 					<div class="control">	  					
-				    	<input class="input userInput" type="text" name="nome">
+				    	<input class="input userInput" type="text" name="nome" required>
 					</div>
 				</div> 
 				<div class="field">
 	  				<label for="email" class="label">Email</label>
 					<div class="control">
-				    	<input class="input userInput" type="email" name="email">
+				    	<input class="input userInput" type="email" name="email" required>
 					</div>
 				</div> 
 				<div class="field">
 	  				<label for="password" class="label">Palavra Passe</label>
 					<div class="control">
-				    	<input class="input userInput" type="password" name="password">
+				    	<input class="input userInput" type="password" name="password" required>
 					</div>
 				</div> 
 				<div class="field">
