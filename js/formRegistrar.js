@@ -1,4 +1,4 @@
-(function(){
+/*(function(){
 var enviar = document.querySelector("#enviar");
 
 enviar.addEventListener('click', enviarForm);
@@ -14,4 +14,4 @@ function enviarForm(){
 	}
 }
 
-})()
+})()*/

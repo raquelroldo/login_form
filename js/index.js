@@ -13,4 +13,10 @@
 			menuList.classList.add('active');	
 		}
 	}
+	//Clique botão registrar leva ao form
+	var btnRegistrar = document.querySelector('.btn-registar');
+	btnRegistrar.addEventListener('click', function(){
+		document.location.href = "loginForm.php";
+	});
+	
 })()

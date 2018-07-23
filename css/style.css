@@ -12,6 +12,7 @@ html{
 }
 a{
 	text-decoration:none;
+	color: inherit;
 }
 ul{
 	list-style:none;
@@ -98,11 +99,11 @@ img{
 	font-size:1.5em;
 	color:#000000;
 }
-.button{
+.buttons{
 	width:100%;
 	margin-top:2%;
 }
-.button i{
+.buttons i{
 	float:right;
 }
 .btn-registar{
