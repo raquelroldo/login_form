@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div class="container">
+		<!-- <div class="container"> -->
 			<header class="cabecalho">
 				<a href="index.php"><h1 class="logo">Massagem Terapêutica</h1></a>
 				<button id="btn" class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
@@ -24,9 +24,9 @@
 					</ul>
 				</nav>	
 			</header>
-		</div>
+		<!-- </div> -->
 		<div class="banner">
-			<div class="title">
+			<div class="titles">
 				<h2>Vamos Destravar!</h2>
 				<h3>Temos soluções para os mais variados problemas.</h3>
 			</div>
@@ -65,7 +65,7 @@
 			<h2>Inscreva-se agora!</h2>
 			<h3>Receba as nossas novidades</h3>
 			<form action="newsletter.php" method="post">
-				<input type="email" name="nemail" placeholder="Seu email">
+				<input type="email" name="nemail" placeholder="Seu email" required>
 				<button id="btnNewsletter">Resgistar</button>
 			</form>
 		</section>

@@ -1,0 +1,39 @@
+.sobre{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-content: space-around;
+}
+.sobre h1{
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin: 5%;
+}
+.sobre p{
+	font-size: 1.1em;
+	margin: 4% 6% 10% 6%;
+}
+
+/*Small devices - Tablets*/
+@media screen and (min-width:768px) {
+	.sobre h1{
+		font-size: 1.9em;
+		margin:1%;
+	}
+	.sobre p{
+		margin:4% 6%;
+	}
+	.sobre p:last-child{
+		margin-bottom: 8%;
+	}
+}
+
+/*Medium devices*/
+@media screen and (min-width:960px) {	
+	.sobre p{
+		margin:3% 4%;
+	}
+}

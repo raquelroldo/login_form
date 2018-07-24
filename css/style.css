@@ -18,7 +18,7 @@ ul{
 	list-style:none;
 }
 img{
-	max-width:100%;
+	width:100%;
 }
 /*Cabeçalho*/
 .cabecalho{
@@ -87,15 +87,15 @@ img{
 	padding:3% 4%;
 	background:url(../img/banner.jpg) no-repeat fixed;
 }
-.title{
+.titles{
 	width:100%;
 }
-.title h2{
+.titles h2{
 	font-size:2.5em;
 	color:#000000;
 	font-weight:700;
 }
-.title h3{
+.titles h3{
 	font-size:1.5em;
 	color:#000000;
 }
@@ -130,15 +130,13 @@ img{
 /*Serviços*/
 .servicos{
 	width:100%;
-	float:left;
-	padding:3% 4%;
+	float:left;	
 }
 .servico{
-	width:100%;
 	background-color:#ffffff;
 	text-align:left;
 	border-radius:7px;
-	margin-bottom:3%;
+	margin: 5%;
 }
 .servico img{
 	border-radius:7px 7px 0 0;
@@ -226,13 +224,15 @@ img{
 }
 /*Small devices - Tablets*/
 @media screen and (min-width:768px) {
+	.servicos{
+		display: flex;
+		flex-direction: row;
+	}
 	.servico{
+		justify-content: space-around;
 		width:49%;
 		float:left;
-		margin-right:2%;
-	}
-	.servico:nth-child(2){
-		margin-right:0;
+		margin:6% 3%;
 	}
 	.newsletter h2{
 		font-size:2em;
@@ -254,19 +254,19 @@ img{
 	}
 }
 /*Medium devices*/
-@media screen and (min-width:960px) {
-	.title{
+@media screen and (min-width:960px) {	
+	.titles{
 		width:70%;
 		float:left;
 		text-align:left;
 	}
-	.title h2{
+	.titles h2{
 		font-size:3em;
 	}
-	.title h3{
+	.titles h3{
 		font-size:2em;
 	}
-	.button{
+	.buttons{
 		width:30%;
 		float:left;
 		margin-top:0;
@@ -274,9 +274,9 @@ img{
 	.servico{
 		width:29%;		
 	}
-	.servico:nth-child(2){
+	/*.servico:nth-child(2){
 		margin-right:2%;
-	}
+	}*/
 	.newsletter input{
 		width:60%;
 		float:none;

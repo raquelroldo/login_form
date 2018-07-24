@@ -18,5 +18,12 @@
 	btnRegistrar.addEventListener('click', function(){
 		document.location.href = "loginForm.php";
 	});
+
+	//clique botão sobre
+	var btnSobre = document.querySelector('.btn-sobre');
+	btnSobre.addEventListener('click', sobre);
+	function sobre(){
+		document.location.href = "sobre.php";
+	}
 	
 })()
